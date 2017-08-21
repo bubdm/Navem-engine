@@ -1,0 +1,6 @@
+D:\Proyectos\VisualStudio\Navem engine\Navem client\bin\Debug\Navem client.exe.config
+D:\Proyectos\VisualStudio\Navem engine\Navem client\bin\Debug\Navem client.exe
+D:\Proyectos\VisualStudio\Navem engine\Navem client\bin\Debug\Navem client.pdb
+D:\Proyectos\VisualStudio\Navem engine\Navem client\obj\Debug\Navem client.exe
+D:\Proyectos\VisualStudio\Navem engine\Navem client\obj\Debug\Navem client.pdb
+D:\Proyectos\VisualStudio\Navem engine\Navem client\obj\Debug\Navem client.csprojResolveAssemblyReference.cache

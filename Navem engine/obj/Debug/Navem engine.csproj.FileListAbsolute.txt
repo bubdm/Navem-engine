@@ -1,0 +1,9 @@
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\bin\Debug\Navem engine.exe.config
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\bin\Debug\Navem engine.exe
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\bin\Debug\Navem engine.pdb
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\Debug\Navem engine.csprojResolveAssemblyReference.cache
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\Debug\Navem_engine.Form1.resources
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\Debug\Navem_engine.Properties.Resources.resources
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\Debug\Navem engine.csproj.GenerateResource.Cache
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\Debug\Navem engine.exe
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\Debug\Navem engine.pdb
