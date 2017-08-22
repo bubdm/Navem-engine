@@ -8,8 +8,6 @@ namespace Navem_engine
 {
     public class NavemWin
     {
-        private Form1 ventana;
-
         public NavemWin(string[] args)
         {
             int width = int.Parse(args[0]);
@@ -20,8 +18,7 @@ namespace Navem_engine
             string url = args[5];
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            ventana = new Form1(width, height, sizemode, frame, name, url);
-            Application.Run(ventana);
+            Application.Run(new Form1(width, height, sizemode, frame, name, url));
         }
     }
 }

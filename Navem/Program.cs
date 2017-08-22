@@ -13,7 +13,7 @@ namespace Navem
                     break;
 
                 case "run":
-                    Process.Start("Navem run.exe");
+                    Process.Start("Navem run.exe", string.Join("\" \"",args).Substring(5) + "\"");
                     break;
 
                 default:

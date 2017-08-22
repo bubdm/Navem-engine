@@ -46,7 +46,7 @@ namespace Navem_client
 
             stw.Write(repl);
             stw.Close();
-            ProcessStartInfo procStartInfo = new ProcessStartInfo("cmd", "/c csc " + " /target:winexe " + " \"/reference:Navem engine.dll\" " + icon + filename + "start.cs");
+            ProcessStartInfo procStartInfo = new ProcessStartInfo("cmd", "/c csc " + " /target:winexe " + " \"/reference:Navem engine.dll\" " + icon + "\"" + filename + "\"" + "start.cs");
             procStartInfo.RedirectStandardOutput = true;
             procStartInfo.UseShellExecute = false;
             procStartInfo.CreateNoWindow = true;

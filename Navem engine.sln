@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navem client", "Navem clien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navem", "Navem\Navem.csproj", "{E665AFB4-7678-484A-9284-01CEBA2AC07F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navem run", "Navem run\Navem run.csproj", "{EA87ED6F-D4BE-40BC-B720-4EDBEBFABBA3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,14 +41,6 @@ Global
 		{E665AFB4-7678-484A-9284-01CEBA2AC07F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E665AFB4-7678-484A-9284-01CEBA2AC07F}.Release|x64.ActiveCfg = Release|Any CPU
 		{E665AFB4-7678-484A-9284-01CEBA2AC07F}.Release|x64.Build.0 = Release|Any CPU
-		{EA87ED6F-D4BE-40BC-B720-4EDBEBFABBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA87ED6F-D4BE-40BC-B720-4EDBEBFABBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA87ED6F-D4BE-40BC-B720-4EDBEBFABBA3}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{EA87ED6F-D4BE-40BC-B720-4EDBEBFABBA3}.Debug|x64.Build.0 = Debug|Any CPU
-		{EA87ED6F-D4BE-40BC-B720-4EDBEBFABBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA87ED6F-D4BE-40BC-B720-4EDBEBFABBA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA87ED6F-D4BE-40BC-B720-4EDBEBFABBA3}.Release|x64.ActiveCfg = Release|Any CPU
-		{EA87ED6F-D4BE-40BC-B720-4EDBEBFABBA3}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
