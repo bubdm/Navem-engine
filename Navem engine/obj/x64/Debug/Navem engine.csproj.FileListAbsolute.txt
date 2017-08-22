@@ -15,3 +15,4 @@ D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem engine.p
 D:\Proyectos\VisualStudio\Navem engine\Navem engine\bin\x64\Debug\Navem engine.dll.config
 D:\Proyectos\VisualStudio\Navem engine\Navem engine\bin\x64\Debug\Navem engine.dll
 D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem engine.dll
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem engine.csprojResolveAssemblyReference.cache
