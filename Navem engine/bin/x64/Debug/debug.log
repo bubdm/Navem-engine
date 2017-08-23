@@ -372,3 +372,24 @@
 [0823/015920.987:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
 [0823/015921.970:INFO:child_thread_impl.cc(851)] ChildThreadImpl::EnsureConnected()
 [0823/015924.669:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0823/143559.258:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0823/143605.824:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0823/143605.825:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0823/143630.208:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
+[0823/143702.277:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0823/162701.804:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0823/165142.043:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0823/165149.301:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0823/165149.304:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0823/165210.742:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
+[0823/165450.468:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0823/165554.145:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0823/165601.105:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0823/165601.106:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0823/165740.544:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
+[0823/170405.475:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0823/170413.652:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0823/170413.652:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0823/172626.033:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0823/172641.933:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0823/172706.549:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain

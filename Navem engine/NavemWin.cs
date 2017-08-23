@@ -8,9 +8,13 @@ namespace Navem_engine
 {
     public partial class NavemWin : Form
     {
-        public ChromiumWebBrowser chromeBrowser;
+        private ChromiumWebBrowser chromeBrowser;
 
-        public NavemWin(int width, int height, string sizemode, bool frame, string name, string url)
+        private NavemEngine app;
+
+        public NavemEngine App { get => app; set => app = value; }
+
+        public NavemWin(int width, int height, string sizemode, bool frame, string name, string url, NavemEngine app)
         {
             InitializeComponent();
             InitializeChromium(url);
@@ -32,6 +36,9 @@ namespace Navem_engine
             }
             if (File.Exists("build.ico"))
                 Icon = new System.Drawing.Icon("build.ico");
+            App = app;
+            mainmenu.SendToBack();
+            mainmenu.Hide();
         }
 
         private void InitializeChromium(string url)
@@ -42,6 +49,7 @@ namespace Navem_engine
             chromeBrowser = new ChromiumWebBrowser(url);
             this.Controls.Add(chromeBrowser);
             chromeBrowser.Dock = DockStyle.Fill;
+            chromeBrowser.BringToFront();
         }
 
         private void NavemWin_FormClosing(object sender, FormClosingEventArgs e)
@@ -61,6 +69,11 @@ namespace Navem_engine
                 MaximumSize = Size;
                 MinimumSize = Size;
             }
+        }
+
+        internal MenuStrip getMenu()
+        {
+            return mainmenu;
         }
 
     }

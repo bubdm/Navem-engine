@@ -10,7 +10,7 @@ namespace Navem_engine
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Win = new NavemWin(int.Parse(args[0]), int.Parse(args[1]), args[2], bool.Parse(args[3]), args[4], args[5]);
+            Win = new NavemWin(int.Parse(args[0]), int.Parse(args[1]), args[2], bool.Parse(args[3]), args[4], args[5], this);
         }
 
         public NavemWin Win { get => nwn; set => nwn = value; }
@@ -18,6 +18,11 @@ namespace Navem_engine
         public void run()
         {
             Application.Run(Win);
+        }
+
+        public static void exit()
+        {
+            Application.Exit();
         }
     }
 }
