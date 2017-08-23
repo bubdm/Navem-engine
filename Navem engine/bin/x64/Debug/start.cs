@@ -6,7 +6,10 @@ namespace Navem_client
     {
         static void Main(string[] args)
         {
-            new NavemWin(new string[]{"$Width","$Height","$SizeMode","$Frame","$Title","$URL"});
+            NavemEngine app = new NavemEngine(new string[]{"$Width","$Height","$SizeMode","$Frame","$Title","$URL"});
+            NavemWin window = app.Win;
+            window.resizable(false);
+            app.run();
         }
     }
 }
