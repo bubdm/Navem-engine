@@ -12,6 +12,10 @@ namespace Navem
                     Process.Start("Navem client.exe");
                     break;
 
+                case "build":
+                    Process.Start("Navem client.exe", "build");
+                    break;
+
                 case "run":
                     Process.Start("Navem run.exe", string.Join("\" \"",args).Substring(5) + "\"");
                     break;

@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Navem_client
 {
@@ -12,21 +8,10 @@ namespace Navem_client
     {
         static void Main(string[] args)
         {
+            Console.Title = "Navem client";
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("FileName: ");
             string filename = Console.ReadLine();
-            Console.Write("Set Width: ");
-            string width = Console.ReadLine();
-            Console.Write("Set Height: ");
-            string height = Console.ReadLine();
-            Console.Write("Set Sizemode: ");
-            string sizemode = Console.ReadLine();
-            Console.Write("Set Frame: ");
-            string frame = Console.ReadLine();
-            Console.Write("Set Title: ");
-            string name = Console.ReadLine();
-            Console.Write("Set URL: ");
-            string url = Console.ReadLine();
             string icon = "";
             if (File.Exists("build.ico"))
                 icon = " /win32icon:build.ico ";
@@ -37,16 +22,31 @@ namespace Navem_client
             StreamReader str = new StreamReader("start.cs");
             string reed = str.ReadToEnd();
             str.Close();
-            StreamWriter stw = new StreamWriter("start.cs");
+            if (args.Length < 1)
+            {
+                Console.Write("Set Width: ");
+                string width = Console.ReadLine();
+                Console.Write("Set Height: ");
+                string height = Console.ReadLine();
+                Console.Write("Set Sizemode: ");
+                string sizemode = Console.ReadLine();
+                Console.Write("Set Frame: ");
+                string frame = Console.ReadLine();
+                Console.Write("Set Title: ");
+                string name = Console.ReadLine();
+                Console.Write("Set URL: ");
+                string url = Console.ReadLine();
+                StreamWriter stw = new StreamWriter("start.cs");
 
-            string repl = reed
-                .Replace("$Width", width).Replace("$Height", height)
-                .Replace("$SizeMode", sizemode).Replace("$Frame", frame)
-                .Replace("$Title", name).Replace("$URL", url);
+                string repl = reed
+                    .Replace("$Width", width).Replace("$Height", height)
+                    .Replace("$SizeMode", sizemode).Replace("$Frame", frame)
+                    .Replace("$Title", name).Replace("$URL", url);
 
-            stw.Write(repl);
-            stw.Close();
-            ProcessStartInfo procStartInfo = new ProcessStartInfo("cmd", "/c csc " + " /target:winexe " + " \"/reference:Navem engine.dll\" " + icon + "\"" + filename + "\"" + "start.cs");
+                stw.Write(repl);
+                stw.Close();
+            }
+            ProcessStartInfo procStartInfo = new ProcessStartInfo("cmd", "/c csc " + " /target:winexe " + " \"/reference:Navem engine.dll\" " + icon + filename + " start.cs");
             procStartInfo.RedirectStandardOutput = true;
             procStartInfo.UseShellExecute = false;
             procStartInfo.CreateNoWindow = true;

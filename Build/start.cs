@@ -1,3 +1,5 @@
+using System;
+using System.Windows.Forms;
 using Navem_engine;
 
 namespace Navem_client
@@ -6,7 +8,24 @@ namespace Navem_client
     {
         static void Main(string[] args)
         {
-            new NavemWin(new string[]{"$Width","$Height","$SizeMode","$Frame","$Title","$URL"});
+            NavemWin window = new NavemEngine(new string[]{"$Width","$Height","$SizeMode","$Frame","$Title","$URL"}).Win;
+            menu();
+			window.resizable(false);
+            window.App.run();
+        }
+
+		static void menu()
+		{
+			MenuMaker menus = new MenuMaker(window);
+				menus.addMenuItem("btn1", "Menu", null);
+				ItemMaker sub01 = new ItemMaker(menus, "btn1");
+					sub01.addSubItem("btn2", "Salir", salir);
+			menus.show();
+		}
+		
+        static void salir(object sender, EventArgs e)
+        {
+            NavemEngine.exit();
         }
     }
 }
