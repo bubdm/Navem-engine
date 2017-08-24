@@ -454,3 +454,25 @@
 [0824/124558.814:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR demuxer: could not open
 [0824/124601.595:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: open context failed"}
 [0824/124601.595:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR demuxer: could not open
+[0824/154021.929:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/154027.903:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/154027.904:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/155940.048:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/155947.259:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/155947.259:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/160525.452:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/161025.940:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/161029.929:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/161029.930:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/161318.850:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/161328.306:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/161331.168:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/162523.411:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/162529.038:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/162529.039:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/162710.627:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/162716.390:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/162716.391:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/163437.672:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/163535.704:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/163618.785:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain

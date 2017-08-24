@@ -36,9 +36,9 @@ namespace Navem_engine
             };
         }
 
-        public void AddLocalHandler()
+        public void AddLocalHandler(string name, object obj)
         {
-
+            browser.RegisterJsObject(name, obj);
         }
     }
 }

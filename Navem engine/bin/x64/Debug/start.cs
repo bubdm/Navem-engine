@@ -10,11 +10,11 @@ namespace Navem_client
         {
             NavemWin window = new NavemEngine(new string[]{"$Width","$Height","$SizeMode","$Frame","$Title","$URL"}).Win;
             menu(window);
-			new JSloader(window).FrameLoadEnd("alert('the page execute correctly');");
+			//jscript(window);
 			window.resizable(true);
             window.App.run();
         }
-
+		
 		static void menu(NavemWin window)
 		{
 			MenuMaker menus = new MenuMaker(window);
@@ -24,7 +24,24 @@ namespace Navem_client
 			menus.show();
 		}
 		
-        static void salir(object sender, EventArgs e)
+		static void jscript(NavemWin window)
+		{
+			JSloader embed = new JSloader(window);
+			embed.AddLocalHandler("win",new Program());
+			embed.FrameLoadEnd(@"
+             document.body.onmouseup = function()
+             {
+               win.msg('Pagina cargada correctamente');
+             }
+            ");
+		}
+		
+		public void msg(string msg)
+        {
+            MessageBox.Show(msg);
+        }
+		
+        public static void salir(object sender, EventArgs e)
         {
             NavemEngine.exit();
         }
