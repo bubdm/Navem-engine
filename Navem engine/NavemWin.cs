@@ -3,6 +3,7 @@
 using CefSharp;
 using CefSharp.WinForms;
 using System.IO;
+using System;
 
 namespace Navem_engine
 {
@@ -44,7 +45,6 @@ namespace Navem_engine
         private void InitializeChromium(string url)
         {
             CefSettings settings = new CefSettings();
-            settings.Locale = "es-ES";
             Cef.Initialize(settings);
             chromeBrowser = new ChromiumWebBrowser(url);
             this.Controls.Add(chromeBrowser);
@@ -74,6 +74,11 @@ namespace Navem_engine
         internal MenuStrip getMenu()
         {
             return mainmenu;
+        }
+
+        internal ChromiumWebBrowser getBrowser()
+        {
+            return chromeBrowser;
         }
 
     }

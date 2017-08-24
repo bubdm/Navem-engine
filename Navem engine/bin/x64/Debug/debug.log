@@ -413,3 +413,44 @@
 [0823/213545.892:WARNING:quota_manager.cc(1833)] Create directory failed for path
 [0823/213545.892:WARNING:quota_manager.cc(1833)] Create directory failed for path
 [0823/213550.171:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
+[0824/002605.363:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/002612.586:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/002810.920:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/002812.121:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/003103.383:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/003109.464:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/003137.361:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/003424.636:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/003828.118:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/003833.285:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/003833.285:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/004151.967:INFO:child_thread_impl.cc(851)] ChildThreadImpl::EnsureConnected()
+[0824/114119.938:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/114826.353:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/114942.438:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/114947.839:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/114947.839:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/115829.603:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/115843.778:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/115843.778:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/120028.199:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/120038.044:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/120038.045:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/120102.078:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
+[0824/120221.593:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/120229.893:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/120229.895:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0824/120237.544:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
+[0824/124210.479:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/124357.740:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/124516.577:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0824/124523.763:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: open context failed"}
+[0824/124523.763:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR demuxer: could not open
+[0824/124550.723:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: open context failed"}
+[0824/124550.723:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR demuxer: could not open
+[0824/124558.639:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: open context failed"}
+[0824/124558.640:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR demuxer: could not open
+[0824/124558.813:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: open context failed"}
+[0824/124558.814:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR demuxer: could not open
+[0824/124601.595:ERROR:render_media_log.cc(30)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: open context failed"}
+[0824/124601.595:ERROR:render_media_log.cc(30)] MediaEvent: PIPELINE_ERROR demuxer: could not open

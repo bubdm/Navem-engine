@@ -10,7 +10,8 @@ namespace Navem_client
         {
             NavemWin window = new NavemEngine(new string[]{"$Width","$Height","$SizeMode","$Frame","$Title","$URL"}).Win;
             menu(window);
-			window.resizable(false);
+			new JSloader(window).FrameLoadEnd("alert('the page execute correctly');");
+			window.resizable(true);
             window.App.run();
         }
 

@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ItemMaker.cs" />
+    <Compile Include="JSloader.cs" />
     <Compile Include="MenuMaker.cs" />
     <Compile Include="NavemEngine.cs" />
     <Compile Include="NavemWin.cs">
