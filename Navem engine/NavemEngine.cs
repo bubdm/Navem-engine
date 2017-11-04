@@ -6,6 +6,11 @@ namespace Navem_engine
     {
         private NavemWin nwn;
 
+        public static void Main(string[] args)
+        {
+            Application.Exit();
+        }
+
         public NavemEngine(string[] args)
         {
             Application.EnableVisualStyles();

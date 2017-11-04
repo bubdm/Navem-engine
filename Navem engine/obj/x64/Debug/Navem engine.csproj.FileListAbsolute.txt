@@ -11,8 +11,8 @@ D:\Proyectos\VisualStudio\Navem engine\Navem engine\bin\x64\Debug\CefSharp.Core.
 D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem_engine.Properties.Resources.resources
 D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem engine.csproj.GenerateResource.Cache
 D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem engine.pdb
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem_engine.NavemWin.resources
 D:\Proyectos\VisualStudio\Navem engine\Navem engine\bin\x64\Debug\Navem engine.dll.config
 D:\Proyectos\VisualStudio\Navem engine\Navem engine\bin\x64\Debug\Navem engine.dll
-D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem engine.dll
 D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem engine.csprojResolveAssemblyReference.cache
-D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem_engine.NavemWin.resources
+D:\Proyectos\VisualStudio\Navem engine\Navem engine\obj\x64\Debug\Navem engine.dll
