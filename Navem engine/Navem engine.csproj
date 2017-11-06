@@ -101,6 +101,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DownloadManager.cs" />
     <Compile Include="ItemMaker.cs" />
     <Compile Include="JSloader.cs" />
     <Compile Include="MenuMaker.cs" />

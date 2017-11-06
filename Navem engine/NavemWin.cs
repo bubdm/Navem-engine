@@ -46,9 +46,10 @@ namespace Navem_engine
             CefSettings settings = new CefSettings();
             Cef.Initialize(settings);
             chromeBrowser = new ChromiumWebBrowser(url);
-            this.Controls.Add(chromeBrowser);
+            Controls.Add(chromeBrowser);
             chromeBrowser.Dock = DockStyle.Fill;
             chromeBrowser.BringToFront();
+            chromeBrowser.DownloadHandler = new DownloadManager();
         }
 
         private void NavemWin_FormClosing(object sender, FormClosingEventArgs e)
@@ -68,6 +69,16 @@ namespace Navem_engine
                 MaximumSize = Size;
                 MinimumSize = Size;
             }
+        }
+
+        public void Navigate(string url)
+        {
+            chromeBrowser.Load(url);
+        }
+
+        public void Navigate(object sender)
+        {
+            chromeBrowser.Load(((ToolStripMenuItem)sender).Name);
         }
 
         internal MenuStrip getMenu()
