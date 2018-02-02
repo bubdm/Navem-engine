@@ -5,12 +5,10 @@ namespace Navem_engine
 {
     public class JSloader
     {
-        private NavemWin window;
         private ChromiumWebBrowser browser;
 
         public JSloader(NavemWin window)
         {
-            this.window = window;
             browser = window.getBrowser();
         }
 
